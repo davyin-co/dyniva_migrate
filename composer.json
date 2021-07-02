@@ -6,9 +6,17 @@
     "license": "GPL-2.0-or-later",
     "homepage": "https://github.com/davyin-co/dyniva_migrate",
     "require": {
+        "cweagans/composer-patches": "^1.7",
         "drupal/core": "^8.6 || ^9"
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.1",
         "drupal/migrate_tools": "^5.0"
+    },
+    "extra": {
+        "patches": {
+            "drupal/migrate_plus": {
+                "Add source or destination module": "https://www.drupal.org/files/issues/2018-03-22/migrate_plus_include_new_annotations-2955386-2.patch"
+            }
+        }
     }
 }
