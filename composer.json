@@ -7,7 +7,7 @@
     "homepage": "https://github.com/davyin-co/dyniva_migrate",
     "require": {
         "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^8.6 || ^9"
+        "drupal/core": "^8.6 || ^9",
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.1",
         "drupal/migrate_tools": "^5.0"
