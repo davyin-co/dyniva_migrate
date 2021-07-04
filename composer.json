@@ -16,7 +16,10 @@
         "patches": {
             "drupal/migrate_plus": {
                 "Add source or destination module": "https://www.drupal.org/files/issues/2018-03-22/migrate_plus_include_new_annotations-2955386-2.patch"
-            }
+            },
+             "drupal/migrate_source_csv": {
+                 "Support remote csv path": "https://www.drupal.org/files/issues/2018-10-21/Import_data_from_url-2927126-9.patch"
+             }
         }
     }
 }
